@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_lessons"
+        android:icon="@drawable/ic_lesson_black_24dp"
+        android:title="@string/lesson" />
+    <item
+        android:id="@+id/action_quiz"
+        android:icon="@drawable/ic_quiz_black_24dp"
+        android:title="@string/quiz" />
+    <item
+        android:id="@+id/action_home"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="@string/home" />
+    <item
+        android:id="@+id/action_setting"
+        android:icon="@drawable/ic_setting_black_24dp"
+        android:title="@string/setting" />
+
+</menu>

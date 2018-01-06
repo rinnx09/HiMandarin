@@ -1,0 +1,27 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.rinnxyii.himandarin.QuizFragment">
+
+    <Button
+        android:id="@+id/buttonQuiz2"
+        android:layout_width="350dp"
+        android:layout_height="100dp"
+        android:layout_alignLeft="@+id/buttonQuiz1"
+        android:layout_alignStart="@+id/buttonQuiz1"
+        android:layout_below="@+id/buttonQuiz1"
+        android:layout_marginTop="13dp"
+        android:text="@string/quiz2" />
+
+    <Button
+        android:id="@+id/buttonQuiz1"
+        android:layout_width="350dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:text="@string/quiz1" />
+
+</RelativeLayout>

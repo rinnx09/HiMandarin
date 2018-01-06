@@ -1,0 +1,47 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.rinnxyii.himandarin.LessonsFragment">
+
+    <Button
+        android:id="@+id/buttonLesson4"
+        android:layout_width="350dp"
+        android:layout_height="100dp"
+        android:layout_alignLeft="@+id/buttonLesson3"
+        android:layout_alignStart="@+id/buttonLesson3"
+        android:layout_below="@+id/buttonLesson3"
+        android:layout_marginTop="17dp"
+        android:text="@string/lesson4" />
+
+    <Button
+        android:id="@+id/buttonLesson3"
+        android:layout_width="350dp"
+        android:layout_height="100dp"
+        android:layout_alignLeft="@+id/buttonLesson2"
+        android:layout_alignStart="@+id/buttonLesson2"
+        android:layout_below="@+id/buttonLesson2"
+        android:layout_marginTop="15dp"
+        android:text="@string/lesson3" />
+
+    <Button
+        android:id="@+id/buttonLesson2"
+        android:layout_width="350dp"
+        android:layout_height="100dp"
+        android:layout_alignLeft="@+id/buttonLesson1"
+        android:layout_alignStart="@+id/buttonLesson1"
+        android:layout_below="@+id/buttonLesson1"
+        android:layout_marginTop="13dp"
+        android:text="@string/lesson2" />
+
+    <Button
+        android:id="@+id/buttonLesson1"
+        android:layout_width="350dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:text="@string/lesson1" />
+
+</RelativeLayout>
